@@ -1,0 +1,3 @@
+* starship prompt configuration
+
+** don't forget to set $STARSHIP_CONFIG
