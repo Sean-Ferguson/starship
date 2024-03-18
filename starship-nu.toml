@@ -1,0 +1,25 @@
+right_format = "$time"
+
+[character]
+# success_symbol = "[🐟](bold green)"
+success_symbol = "[➜](bold green)"
+error_symbol = "[✖](bold red)"
+
+[cmd_duration]
+min_time = 10_000  # Show command duration over 10,000 milliseconds (=10 sec)
+format = "took [$duration]($style)"
+
+# [direnv]
+# disabled = false
+# detect_files = ['.envrc']
+
+[directory]
+truncation_length = 0
+# style = "bold bright-blue"
+style = "bold blue"
+
+[time]
+disabled = false
+time_format = "%I:%M %p %a %b %d"
+style = "bold bright-black"
+format = "[$time]($style)"
